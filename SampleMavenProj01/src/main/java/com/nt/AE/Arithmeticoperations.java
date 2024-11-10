@@ -12,12 +12,18 @@ public class Arithmeticoperations
 	   return x-y;   
    }
    
+   public int multiply(int x,int y)
+   {
+	   return x*y;
+   }
+   
    public static void main(String[] args) 
    {
 	  Arithmeticoperations aobj=new Arithmeticoperations();
 
 	  System.out.println(aobj.add(75,75));
 	  System.out.println(aobj.sub(60,50));
+	  System.out.println(aobj.multiply(5,5));
    }
    
 }
