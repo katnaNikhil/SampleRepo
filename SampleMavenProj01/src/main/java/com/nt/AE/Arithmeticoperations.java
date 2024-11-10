@@ -7,10 +7,16 @@ public class Arithmeticoperations
 	   return x+y;
    }
    
+   public int sub(int x,int y)
+   {
+	   return x-y;   
+   }
+   
    public static void main(String[] args) 
    {
 	  Arithmeticoperations aobj=new Arithmeticoperations();
 	  System.out.println(aobj.add(25,75));
+	  System.out.println(aobj.sub(60,50));
    }
    
 }
